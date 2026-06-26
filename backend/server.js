@@ -7,7 +7,7 @@ app.use(express.json());
 //API   
 
 app.get("/", (req, res) => {
-  res.send("backend server running successfully");
+  res.send("backend server running successfully yes");
 });
 
 app.listen(PORT, () => {

@@ -89,7 +89,7 @@ and :           npm install -D @eslint/js eslint eslint-plugin-react-hooks eslin
 
 
 2.  "npm install express" in the cmd terminal and we get new folder in our backend folder
-3. add "node_module" folder in gitignore so that its not uploaded on github as its a heavy file.
+3. write "node_module"  in gitignore file so that its not uploaded on github as its a heavy file.
 4. node server.js ---->to run backend
 5. if we make any changes in our server.js code then we need to close the server and restart it to see new changes.
         to solve this problem we use nodemon run: npm install -g nodemon and in package.json write "dev":"nodemon server.js"
