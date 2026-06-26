@@ -1,0 +1,29 @@
+from "powershell" convert the terminal to "command prompt"
+
+1. download node js and its .msi file available on its window
+2. create a folder with frontend and backend.
+3. inside the frontend folder, run the following:
+        C:\Users\AASHI\OneDrive\Desktop\internship>cd frontend
+        C:\Users\AASHI\OneDrive\Desktop\internship\frontend>npm create vite@latest .
+        now select react then javascript.
+
+4. a sever is generated http://localhost:5173/ where we can see our front end.
+
+5. we also delete some useless files which came when we ran the command for vite.
+
+6. the most important file is main.jsx   (jsx=html like language but easier than java script)
+
+
+DAY 2
+
+1. the name of file of component (.jsx file) begins with a capital letter.
+2. unlike in html here it is not class but className
+
+3. go to frontend folder in cmd terminal and then run "npm run dev" to see website.
+4. UI always shows what is in app.jsx. if we make a different componet, the we write "export default Greetings"
+   at the end of the new component and in app.jsx we import it 
+5. html->main.jsx->app.jsx is  how things are connected
+6. install react router
+        C:\Users\AASHI\OneDrive\Desktop\internship\frontend>npm install react-router-dom
+
+
