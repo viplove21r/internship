@@ -25,5 +25,75 @@ DAY 2
 5. html->main.jsx->app.jsx is  how things are connected
 6. install react router
         C:\Users\AASHI\OneDrive\Desktop\internship\frontend>npm install react-router-dom
+ also install: 
+                npm install axios framer-motion react-hot-toast react-icons react-markdown recharts
+
+and :           npm install -D @eslint/js eslint eslint-plugin-react-hooks eslint-plugin-react-refresh globals
+
+
+
+7. git hub link   https://github.com/ankushk-cloud/SkillPath-Ai/tree/main
+
+
+
+
+
+
+
+
+
+
+------------------------------backend----------------------------------
+
+1. C:\Users\AASHI\OneDrive\Desktop\internship\backend>npm init
+         (init means initialize)------my comment
+
+         C:\Users\AASHI\OneDrive\Desktop\internship\backend>npm init
+        This utility will walk you through creating a package.json file.
+        It only covers the most common items, and tries to guess sensible defaults.
+
+        See `npm help init` for definitive documentation on these fields and exactly what they do.
+
+        Use `npm install <pkg>` afterwards to install a package and save it as a dependency in the package.json file.
+
+        Press ^C at any time to quit.
+        package name: (backend) 
+        version: (1.0.0) 
+        description: This is SkillPath AI backend
+        entry point: (index.js) 
+        test command: 
+        git repository: 
+        keywords: 
+        author: 
+        license: (ISC) 
+        type: (commonjs) 
+        About to write to C:\Users\AASHI\OneDrive\Desktop\internship\backend\package.json:
+
+        {
+        "name": "backend",
+        "version": "1.0.0",
+        "description": "This is SkillPath AI backend",
+        "main": "index.js",
+        "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+        },
+        "author": "",
+        "license": "ISC",
+        "type": "commonjs"
+        }
+
+
+        Is this OK? (yes) 
+
+
+
+
+2.  "npm install express" in the cmd terminal and we get new folder in our backend folder
+3. add "node_module" folder in gitignore so that its not uploaded on github as its a heavy file.
+4. node server.js ---->to run backend
+5. if we make any changes in our server.js code then we need to close the server and restart it to see new changes.
+        to solve this problem we use nodemon run: npm install -g nodemon and in package.json write "dev":"nodemon server.js"
+        and in terminal "npm run dev".
+
 
 
