@@ -92,8 +92,39 @@ and :           npm install -D @eslint/js eslint eslint-plugin-react-hooks eslin
 3. write "node_module"  in gitignore file so that its not uploaded on github as its a heavy file.
 4. node server.js ---->to run backend
 5. if we make any changes in our server.js code then we need to close the server and restart it to see new changes.
-        to solve this problem we use nodemon run: npm install -g nodemon and in package.json write "dev":"nodemon server.js"
-        and in terminal "npm run dev".
+        to solve this problem we use nodemon run: "npm install -g nodemon" and in package.json write "dev":"nodemon server.js" this helps us start the server with just "npm run dev".
+        now in terminal type "npm run dev" to start server.
 
+6. in server.js change ""type": "module"" to make our work easy.
+7. run "npm i dotenv" in terminal. while within the backend folder
+8. create a .env file and in .gitignore file write .env bcoz its sensitive file and we dont push them on github.
+
+---------------------------------------------------------------------------------------
+
+DATABASE: MONGODB
+
+1. mongoDB is nosql(without tables it stores data ) database.
+2. it stores data in key val pairs- space effective, it is paid
+3. username: rajoraviplove78_db_user  password: 7gvuvLRgvio0TeZS   -------of mongodb
+4. create free cluster-> copy code in .env file "mongo_uri= ...." .
+5. install a packge of mongoose for mongodb :  "npm i mongoose"
+
+
+6. create a folder models> User.js
+7. we install a package bcrypt --> "npm i bcryptjs"
+
+---------------------------------------------Routes in backend--------------------------
+
+1. HTTP status codes
+        200-ok success
+        201-successfully created data
+        400-bad request
+
+
+2. main file=server.js -----(connected to)----router(has url path etc)----(conected to)----controller(has business logic)---(connected to)---models
+
+3. controller handles api action.
+
+4. java web token(jwt): header, payload, signature are components of JWT
 
 
